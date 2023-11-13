@@ -1,0 +1,11 @@
+
+h1{
+    font: normal 24pt ;
+    text-align: center;
+    text-transform: uppercase;
+}
+p{
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-style: italic;
+}
