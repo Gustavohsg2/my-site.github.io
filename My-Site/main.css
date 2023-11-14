@@ -1,14 +1,21 @@
-
 h1{
     font: normal 24pt ;
     text-align: center;
     text-transform: uppercase;
+}
+h2{
+    font: normal 20pt;
+    color: white;
 }
 .flip-card {
     background-color: transparent;
     width: 300px;
     height: 400px;
     perspective: 1000px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 40px;
+    display: inline-block;
 }
 .flip-card-inner{
     position: relative;
@@ -26,13 +33,30 @@ h1{
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    display: flex;
+}
+.flip-card-front {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border-radius: 14px;
-    background-color: #121212;
-}
+    border-radius: 14px; 
+    display: flex;
+  }
 .flip-card-back {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 14px; 
+    display: flex;
     transform: rotateY(180deg);
+}
+.logo_git{
+    height: 150px;
+    width: 150px;
+}
+a{
+    margin-top: 20px;
 }
