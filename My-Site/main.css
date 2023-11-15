@@ -1,3 +1,7 @@
+.btn{
+    width: 90px;
+}
+
 h1{
     font: normal 24pt ;
     text-align: center;
@@ -59,4 +63,14 @@ h2{
 }
 a{
     margin-top: 20px;
+}
+
+img#nav{
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+h1{
+    font: normal 14pt Arial;
+    color:white;
 }

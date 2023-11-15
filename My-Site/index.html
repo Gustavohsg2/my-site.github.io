@@ -13,38 +13,32 @@
 
     <style>
         body{
-            background-color: gold;
-            text-align: center;
-        }
-        .container{
-            text-align: center;
-            margin-top: 35px;
-        }
-        .btn{
-            width: 90px;
+           background-color: gold;
+           text-align: center;
         }
     </style>
 
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="imagens/logo_nav.png" alt="" width="150" height="150" class="d-inline-block align-text-top">
-                Bootstrap
-            </a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <a class="navbar-brand" href="#">
+            <img id="nav" src="imagens/logo_nav.png" width="50" height="50" class="d-inline-block align-top" alt=""> <span>Inconsistent Studios </span>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="home.html">Início</a>
+                <a class="nav-item nav-link" href="#">Redes</a>
+                <a class="nav-item nav-link" href="#">Blog</a>
+                <a class="nav-item nav-link disabled" href="#">Tarefas</a>
+            </div>
         </div>
-    
     </nav>
-
-    <div class="container">
-        <div class="btn-group">
-            <a href='home.html' class="btn btn-warning">Home</a>
-            <a href='' class="btn btn-primary">Links</a>
-            <a href='' class="btn btn-danger">Resumo</a>
-        </div>
-    </div>
-
+    <!--  
+    <div class="callout callout-default" >
+        <h4>Biologia</h4>
+        <p>HTML, é uma linguagem de programação que é foi por tags, não existindo lógica de programação</p>
+    </div> 
+    -->
     <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front">
@@ -134,8 +128,8 @@
         //var idade = Number.parseInt(window.prompt('Quantos anos você tem?'));
         //var curso = window.prompt('Qual curso você faz?');
         //var nota = Number.parseFloat(window.prompt('Qual foi sua média final?'));
-        document.write(`<h1>Olá, ${nome} </h1>`);
-        document.write(`<p>Parabéns ${nome}, idade: ${idade}! Você passou o 1° ano do curso de Informática! Com a nota final ${nota.toFixed(2)}!`);    
+        //document.write(`<h1>Olá, ${nome} </h1>`);
+        //document.write(`<p>Parabéns ${nome}, idade: ${idade}! Você passou o 1° ano do curso de Informática! Com a nota final ${nota.toFixed(2)}!`);    
     </script>
 
 </body>
