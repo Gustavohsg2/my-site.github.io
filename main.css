@@ -74,3 +74,8 @@ h1{
     font: normal 14pt Arial;
     color:white;
 }
+
+#navbar {
+    top: 0;
+    width: 100%;
+}
