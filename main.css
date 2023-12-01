@@ -2,6 +2,10 @@
     width: 90px;
 }
 
+body{
+    background: linear-gradient(20deg, blue, yellow);;
+}
+
 h1{
     font: normal 24pt ;
     text-align: center;
