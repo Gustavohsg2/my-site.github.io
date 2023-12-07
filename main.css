@@ -2,8 +2,38 @@
     width: 90px;
 }
 
-body{
-    background: linear-gradient(20deg, blue, yellow);;
+
+body {
+    background: linear-gradient(20deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 100% 50%;
+    }
+
+    20% {
+        background-position: 50% 50%;
+    }
+ 
+    40% {
+        background-position: 0% 50%;
+    }
+    60% {
+        background-position: 100% 50%;
+    }
+    80% {
+        background-position: 50% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+    120%{
+        background-position: 50% 50%;
+    }
 }
 
 h1{
@@ -22,6 +52,7 @@ h2{
     perspective: 1000px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 30px;
     margin-top: 40px;
     display: inline-block;
 }
